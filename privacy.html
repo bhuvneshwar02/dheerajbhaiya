@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Privacy</title>
+    <link rel="icon" type="image/x-icon" href="images\dheeraj-favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="css" href="css\style.css">
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="Default page" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <style>
+        body {
+            background: #f8f9fa;
+            transition: background 0.5s;
+        }
+
+        .btn {
+            background: #000a2d;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-family: "Rubik", sans-serif;
+            color: #fff;
+            font-size: 14px;
+            padding: 22px 35px;
+            -moz-user-select: none;
+            cursor: pointer;
+            display: inline-block;
+            font-weight: 500;
+            letter-spacing: 1px;
+            line-height: 0;
+            margin-bottom: 0;
+            margin: 10px;
+            cursor: pointer;
+            transition: color 0.4s linear;
+            position: relative;
+            z-index: 1;
+            border: 0;
+            overflow: hidden;
+            margin: 0;
+        }
+
+        .btn::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 101%;
+            height: 101%;
+            background: #3589f1;
+            z-index: 1;
+            border-radius: 5px;
+            transition: transform 0.5s;
+            transition-timing-function: ease;
+            transform-origin: 0 0;
+            transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+            transform: scaleX(0);
+            border-radius: 0;
+        }
+
+        .btn:hover::before {
+            transform: scaleX(1);
+            color: #fff !important;
+            z-index: -1;
+        }
+
+        .hero-btn {
+            background: #0b1416;
+            padding: 30px 36px;
+            box-shadow: 0px 10px 30px 0px rgba(249, 248, 249, 0.1);
+        }
+
+        .hero-btn::before {
+            background: #3589f1;
+        }
+
+        .slider-footer .footer-wrapper p {
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin-bottom: 0px;
+            display: block;
+            line-height: 1.7;
+        }
+
+        .mb-50 {
+            margin: 5% 0 0 0;
+        }
+
+        @media (max-width: 768px) {
+            #nav-banner .navbar-toggler {
+                float: right;
+            }
+        }
+
+        .privacy-container {
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 32px rgba(0, 0, 0, 0.07);
+            padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+            margin-top: 2.5rem;
+            margin-bottom: 2.5rem;
+            animation: fadeInBg 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        @keyframes fadeInBg {
+            from {
+                opacity: 0;
+                transform: translateY(32px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .privacy-container {
+                padding: 1.2rem 0.5rem 1.2rem 0.5rem;
+                margin-top: 1.2rem;
+                margin-bottom: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg"
+        style="box-shadow: 15px 10px 8px 7px #cbc7c7; position: sticky; top: 0; background-color: white; z-index: 2;">
+        <div class="container-fluid">
+            <div id="nav-banner">
+                <a class="navbar-brand" href="https://www.dheerajsingh.in">
+                    <img src="images/dheeraj-banner.png" width="100px" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div id="nav-items" style="font-family: Rufina;">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="occupation.html">Occupation</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Where to Study
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="studyindia.html">Study in India</a></li>
+                                <li><a class="dropdown-item" href="studyabroad.html">Study in Abroad</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="getintouch.html">Get in touch</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="privacy-container" style="font-family: Rufina;">
+        <div class="container">
+            <br>
+            <h1 class="text-center">Privacy Policy</h1>
+            <hr>
+            <p>At dheerajsingh.in we care deeply about your privacy, and we take pride in being a good steward of any
+                data you choose to share with us. If you have any questions about how we use or handle user data, just
+                ask and we'll get back to you in a jiffy.</p>
+            <h3>General
+                being placed on your device. Each browser is different, but generally users can remove cookies by
+                following directions provided in the browser’s “help” file. Please note that, if you reject cookies or
+                disable cookies, some features of the Service may not function properly.</p>
+            <h3>How long we store information</h3>
+            <p>dheerajsingh.in will store your data as long as needed to provide you with our services and to operate
+                our organization. If you ask dheerajsingh.in to delete specific personal information, we'll honor your
+                request unless deleting that information prevents us from carrying out necessary functions, like
+                calculating taxes or conducting required audits.</p>
+            <h3>Security</h3>
+            <p>We have security measures in place to help protect against the unauthorized access to personally
+                identifiable information under our control. We utilize both online and offline security methods,
+                including firewalls, passwords and restricted physical access to the places where your information is
+                stored to help protect personally identifiable information. Our team is trained to comply with our
+                security procedures, and our security procedures are regularly reviewed and revised as we deem
+                necessary.</p>
+            <h3>How you can access and update your information</h3>
+            <p>Our goal is for any personal information in our possession to be as accurate, current and complete as
+                necessary for the purposes for which we use that information. If you want to review, verify or correct
+                your personal information, please contact us using the contact information set out below. We reserve the
+                right not to change any personal information and instead append any alternative information the
+                individual concerned believes is appropriate. To some extent, we rely on individuals to update their own
+                personal information. Unless an individual advises us of these important changes, we may have no way of
+                knowing about them.</p>
+            <p>Your use of the Service indicates an acceptance of the terms of the Privacy Policy. We reserve the right
+                to update or amend this Privacy Policy at any time. We will post any revised version of this Privacy
+                Policy on our website, and we encourage you to refer back to it on a regular basis. The changes
+                contained in any such revised version of this Privacy Policy will be effective from the time such
+                revised version is posted unless otherwise specifically stated therein.</p>
+            <p>This Privacy Please be aware that, by accessing our Service, you acknowledge that our servers are
+                currently located in Asia and that the various communications necessarily result in the transfer of
+                information across international boundaries. By accessing the Service and communicating electronically
+                with us, you consent to the processing and transfer of your personal information as set out in this
+                Privacy Policy. Personal information collected by us may be stored and processed in India or any other
+                country in which we maintain facilities. Personal information collected by us may be transferred among
+                our various divisions and affiliated companies around the world, which may involve transfer from
+                countries within the European Economic Area to countries outside the European Economic Area. By choosing
+                to access the Service, you consent to any such transfer, storage or processing of personal data outside
+                of your country.Policy does not create or confer upon any individual any rights, or impose upon
+                dheerajsingh.in any rights or obligations outside of, or in addition to, any rights or obligations
+                imposed by the privacy laws of such individual’s jurisdiction, as applicable. Privacy legislation or an
+                individual’s right to privacy may differ from one jurisdiction to another. The rights and obligations
+                described in this Privacy Policy may not apply to all individuals or in all jurisdictions. Should there
+                be, in a specific case, any inconsistency between this Privacy Policy and the applicable privacy laws of
+                such individual’s jurisdiction, this Privacy Policy shall be interpreted, in respect of that case, to
+                give effect to, and comply with, such privacy laws.</p>
+            <p>Please be aware that, by accessing our Service, you acknowledge that our servers are currently located in
+                Asia and that the various communications necessarily result in the transfer of information across
+                international boundaries. By accessing the Service and communicating electronically with us, you consent
+                to the processing and transfer of your personal information as set out in this Privacy Policy. Personal
+                information collected by us may be stored and processed in India or any other country in which we
+                maintain facilities. Personal information collected by us may be transferred among our various divisions
+                and affiliated companies around the world, which may involve transfer from countries within the European
+                Economic Area to countries outside the European Economic Area. By choosing to access the Service, you
+                consent to any such transfer, storage or processing of personal data outside of your country.</p>
+            <p>This Privacy Policy applies solely to the information collected by us on-line through the Service and
+                does not apply to any website, application or service other than the Service. The Service contains links
+                to other websites, applications and services provided by third parties that we do not own or control and
+                we are not responsible for the privacy policies and practices of those third parties. Similarly, we are
+                not responsible for the privacy policies and practices of any other websites, applications and services
+                from which you linked to our Service. We encourage you to be aware when you leave our Service and to
+                read the privacy policies of each and every third party that may be providing websites, applications or
+                information linked to the Service.</p>
+
+            <div style="margin-top: 5%;"></div>
+
+            <div
+                style="padding: 7% 5% 6% 5%; background-image: url(&quot;images/aboutimage.png&quot;); color: white; font-family: Rufina;">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="https://www.dheerajsingh.in" style="color: white; text-decoration: none;">
+                            <img src="images/dheeraj-white.png" width="100%" />
+                        </a>
+                        <h6 style="color: white; margin-top: 7%;">+91 7417444474</h6>
+                        <a href="getintouch.html" data-animation="fadeInLeft" data-delay=".8s"
+                            class="btn hero-btn btn-mobile">GET STARTED</a>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 style="text-align: center; color: white; font-weight: 600; margin-bottom: 7%;">Quick Link
+                        </h5>
+                        <h6 style="text-align: center;"><a href="studyabroad.html"
+                                style="color: white; text-decoration: none;">Study Abroad</a></h6>
+                        <h6 style="text-align: center;"><a href="studyindia.html"
+                                style="color: white; text-decoration: none;">Study in India</a></h6>
+                    </div>
+                    <div class="col-md-4">
+                        <h5 style="text-align: center; color: white; font-weight: 600; margin-bottom: 7%;">Support</h5>
+                        <h6 style="text-align: center;"><a href="contact.html"
+                                style="color: white; text-decoration: none;">Contact</a></h6>
+                        <h6 style="text-align: center;"><a href="terms.html"
+                                style="color: white; text-decoration: none;">Terms</a></h6>
+                        <h6 style="text-align: center;"><a href="privacy.html"
+                                style="color: white; text-decoration: none;">Privacy</a></h6>
+                    </div>
+                </div>
+                <div style="margin-top: 5%;"></div>
+                <div class="row" style="text-align: center;">
+                    <div class="col-md-12">
+                        <p>
+                            Copyright ©
+                            <script>
+                                document.write(new Date().getFullYear());</script> | dheerajsingh.in | All rights reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
